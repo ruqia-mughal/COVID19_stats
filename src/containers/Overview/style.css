@@ -1,0 +1,124 @@
+.footer{
+    padding:0px  !important;
+    border:4px solid red;
+}
+.date{
+    font-size: 25px;
+	font-family: Georgia, 'Times New Roman', serif;
+	color: rgb(233, 222, 222);
+	text-align: center;
+        font-weight: 600;
+        background-color: "transparent";
+}
+.normalize{
+
+    padding:0px !important;
+    margin:4px 0px !important;
+  
+    outline: none;
+    overflow: hidden;
+}
+.ant-card-head {
+    min-height: 48px;
+    margin-bottom: -1px;
+    padding: 0 15px !important;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 20px !important;
+    background: transparent;
+    border-radius: 2px 2px 0 0;
+}
+.ant-card-head-title {
+    display: inline-block;
+    flex: 1 1;
+    padding: 1px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ant-card-body{
+    padding: 10px !important;
+}
+.card h1{
+    font-size: x-large;
+    font-weight: bold;
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    color:rgb(11, 11, 138) !important;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.card {
+
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', serif;
+border-bottom-left-radius: 30px !important;
+border-top-right-radius: 30px !important;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	line-height: 1.1em;
+	margin:1px;
+	text-align: center;
+   
+}
+.sideimg{
+   
+    height: 360px;
+
+    width: 200px;
+}
+.sidebar{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+ }
+
+@media screen and (max-width: 800px) {
+    .card h1{
+        font-size: small;
+        font-weight: lighter;
+        font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+        
+    
+    }
+    .date{
+        font-size:medium;
+        font-weight: lighter;
+    
+    }
+    .sideimg{
+       display: none;
+    }
+    .sidebar{
+        display: none;
+     }
+
+}
+.one{
+    background-color: #1dd1a1;
+background-image: linear-gradient(-315deg, #10ca98 0%, #d3d3d3 74%);
+
+}
+.two{
+    background-color: #feae96;
+background-image: linear-gradient(315deg, #feae96 0%, #fe0944 74%);
+}
+.three{
+    background-color: #eca4bc;
+    background-image: linear-gradient(-315deg, #a71469 0%, #eca4bc 74%);
+}
+.four{
+    background-color: #ffffff;
+  
+    background-image: linear-gradient(-15deg, #ffffff 0%, #0d61ce 74%);
+}
+.five{
+    background-color: #fefefe;
+    background-image: linear-gradient(315deg, #fefefe 0%, #00a4e4 74%);
+}
+.six{
+    background-color: #f4f5f6;
+    background-image: linear-gradient(315deg, #f4f5f6 0%, #9b4dca 74%);
+}    

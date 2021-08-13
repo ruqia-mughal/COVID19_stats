@@ -1,0 +1,43 @@
+.covid-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  .ant-page-header-heading-extra {
+    display: flex;
+  }
+
+
+  .covid-charts {
+    display: grid;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #fff;
+    overflow: auto;
+    height: calc(100% - 5px);
+    grid-gap: 10px;
+    align-content: baseline;
+    grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+    padding: 0 10px;
+   
+    margin-right: 10px;
+
+    .cards-wrapper {
+      border: solid 1px #ffffff;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 14px 11px 53px -12px rgba(0,0,0,0.46);
+      -webkit-box-shadow: 14px 11px 53px -12px rgba(0,0,0,0.46);
+      -moz-box-shadow: 14px 11px 53px -12px rgba(0,0,0,0.46);
+      cursor: pointer;
+      height: 615px;
+      position: relative;
+
+    }
+  }
+
+  .site-page-header {
+    border-bottom: 1px solid rgb(235, 237, 240);
+  }
+}
